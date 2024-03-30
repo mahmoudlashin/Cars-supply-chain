@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Grad_Project", "Grad_Project.dwproj", "{56D64F15-1AF1-4725-86E6-EDC867023981}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56D64F15-1AF1-4725-86E6-EDC867023981}.Development|Default.ActiveCfg = Development
+		{56D64F15-1AF1-4725-86E6-EDC867023981}.Development|Default.Build.0 = Development
+		{56D64F15-1AF1-4725-86E6-EDC867023981}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B4C92DB-C080-4738-8F42-FAB8BE508B7C}
+	EndGlobalSection
+EndGlobal
