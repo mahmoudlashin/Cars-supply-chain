@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Dim_Supplier</Database>
+    <Server>DESKTOP-CGV1PJ2\MOLAP</Server>
+    <ConnectionString>Data Source=DESKTOP-CGV1PJ2\MOLAP;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>iN8Dl/HBpfN2ZTTxdZAN0y10A+8=3/16/2024 2:38:41 PM3/16/2024 2:38:41 PM</TimeStamp>
+        <ID>
+          <String>Car Sales DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>tuf9KCeKAUwWrHlL0tSc58Y+SKg=3/16/2024 2:44:24 PM3/16/2024 2:44:24 PM</TimeStamp>
+        <ID>
+          <String>Car Sales DWHV1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WnUYQwhJ+9klnzjvbI7l0vU4Ex0=3/16/2024 3:49:50 PM3/16/2024 2:49:43 PM</TimeStamp>
+        <ID>
+          <String>Dim Supplier</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+R2d/rDPTSCJixNuf9d98jdehrk=3/16/2024 2:49:43 PM3/16/2024 2:49:43 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zZu8Ejvjk0pu1MZ5RKhGK89FSgw=3/16/2024 2:49:43 PM3/16/2024 2:49:43 PM</TimeStamp>
+        <ID>
+          <String>Fact Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>kKTZz9iojBlR+ZaiqtWszXcV52g=3/16/2024 3:49:50 PM3/16/2024 2:49:42 PM1xXCMbUF8YeKrFxH2MEOV35lNuk=3/16/2024 2:49:43 PM3/16/2024 2:49:42 PM</TimeStamp>
+        <ID>
+          <String>Car _Sales_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>NPOISyijwOw07MGNYJZ7XUzy/W4=3/16/2024 2:17:16 PM3/16/2024 2:17:15 PM</TimeStamp>
+      <ID>
+        <String>Dim_Supplier</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-03-16T13:49:55.95Z</LastDeployed>
+</DeploymentSnapshot>
