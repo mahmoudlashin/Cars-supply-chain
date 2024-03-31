@@ -1,7 +1,7 @@
 # Cars-supply-chain
 
 Data source:
-From Kaggle 
+ Kaggle 
 
 Project Steps
 1. Data Gathering
